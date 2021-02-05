@@ -1,4 +1,5 @@
 # User-Credit-Score-Prediction-Naive-Bayes-And-Logistic-Regression
+### Guided a a team of talented students Aishni Chatterjee and Shraddha Kishore
 
 Due to the incessant expansion of the financial and banking institutions, credit based products play an increasingly important role in the economy. With the Economic globalization and the emergence of new platforms through which services are provided, such as the internet, a large number of customers are empowered to select creditors without regional limitations. This however complicates the banking processes.
 A key factor in the success of any lending organization, Banks in particular, is the appraisal of the borrowers credit-worthiness during the credit scoring process. The borrower's credit- worthiness can be accessed by analysing credit scores. Current debt, length of credit, types of credit and payment history are some of the categories that can influence a borrower’s credit score.
@@ -30,6 +31,7 @@ The last column (goodBad) is the indicator variable on loan defaults, which has 
     19. registeredPhone
     20. foriegnWorker
     21. goodBad
+    
 ![alt text](https://github.com/siddhaling/User-Credit-Score-Prediction-Naive-Bayes-And-Logistic-Regression/blob/main/images/1.jpg)
 
 Collected data is pre-processed before the modeling phase. Sampling is used so that the models have a chance to figure out the characteristics of both the ‘good’ and the ‘bad’ credit records. Feature selection is then done to make the data mining and machine learning process more efficient. The purpose of feature selection is to build simple but comprehensive models with better predictive accuracy and better understanding of data. The Machine Learning Algorithms applied in this paper include Naive Bayes and Logistic Regression. The results are then obtained and assessed.
@@ -55,6 +57,7 @@ plot(cdata$savingsTotal, cdata$goodBad,
      ylab="Good-Bad", legend = T)
 
 ![alt text](https://github.com/siddhaling/User-Credit-Score-Prediction-Naive-Bayes-And-Logistic-Regression/blob/main/images/3.jpg)
+
 Then the next piece of code shows the median loan duration in months against defaults:
 cdata_df <- tbl_df(cdata)
 
@@ -85,7 +88,7 @@ ax2.set_title("Probability of bad loans by credit history")
 The methods used for classification of data are logistic regression and Naive Bayes Classification.Python programming language was used to code for the Naive Bayes Classification and R programming was used for Logistic Regression.These techniques are built to classify or identify whether a bank can approve a loan based on the Credit Score.
 Naive Bayes Model is  imported and the Naive Bayes Classifier object is created. Function fit() is used to fit the model on the training set.  Performance is predicted using predict() function.Confusion Matrix is generated and for further evaluation precision and recall can be computed from confusion matrix.
 
- Predictions on whether a field is true or false can be done using Logistic Regression. It fits an S shaped logistic function through the data instead of a line. The S shaped curve ranges from 0 to 1 and shows the probability on the x-axis. This statistical technique predicts the occurrence of an event using a probability model that uses a linear combination of independent variables. The objective is to describe the data and the relationship between one dependent variable and one or more independent variables.
+Predictions on whether a field is true or false can be done using Logistic Regression. It fits an S shaped logistic function through the data instead of a line. The S shaped curve ranges from 0 to 1 and shows the probability on the x-axis. This statistical technique predicts the occurrence of an event using a probability model that uses a linear combination of independent variables. The objective is to describe the data and the relationship between one dependent variable and one or more independent variables.
  
  True positive rate is plotted against the false positive rate. Receiver Operating Characteristic Curve depicts the relationship between sensitivity and specificity. AUC represents the area under the curve. We will be using Repeated K-Fold cross validation. The splitting of the data into k fold is repeated for a specified number of times. Classification error shows the percentage of samples that were incorrectly classified. Out-of-sample forecasting uses testing data to make predictions.
  
@@ -99,3 +102,13 @@ Naive Bayes Model is  imported and the Naive Bayes Classifier object is created.
 Area Under the Curve value for this Logistic Regression model is Area Under the Curve value for this Logistic Regression model is 78%. AUC performs well while measuring predictive accuracy. This shows that there's a 78% chance that the model is able to differentiate between the positive class and negative class.
 
 ![alt text](https://github.com/siddhaling/User-Credit-Score-Prediction-Naive-Bayes-And-Logistic-Regression/blob/main/images/8.jpg)
+
+# Further Projects and Contact
+www.researchreader.com
+
+https://medium.com/@dr.siddhaling
+
+Dr. Siddhaling Urolagin,\
+PhD, Post-Doc, Machine Learning and Data Science Expert,\
+Passionate Researcher, Deep Learning, Machine Learning and applications,\
+dr.siddhaling@gmail.com
